@@ -9,6 +9,13 @@ h1{
     font-size: 2rem;
 }
 
+#picgif{
+float: left;
+position: relative;
+left: 10px;
+top: 10px;
+}
+
 h2{
     font-weight: 400;
     font-family: 'Courier New', Courier, monospace;
@@ -22,10 +29,6 @@ h3{
     font-weight: 400;
 }
 
-p{
-    color: crimson;
-}
-
 .heading{
     background-color:aquamarine;
     padding-top: 10px;
@@ -33,9 +36,16 @@ p{
 }
 
 .movies{
-    background-color: burlywood;
+    background-color:bisque;
     padding-right: 50px;
+    padding: 50px;
     align-items: center;
     text-align: center;
+   
+}
 
+.movie{
+    display: inline-block;
+    background-color:tan;
+    border: 0px solid black;
 }
