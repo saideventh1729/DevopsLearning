@@ -28,10 +28,14 @@ p{
 
 .heading{
     background-color:aquamarine;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .movies{
     background-color: burlywood;
-    padding-bottom: 55pt;
-    margin-bottom: 60pt;
+    padding-right: 50px;
+    align-items: center;
+    text-align: center;
+
 }
