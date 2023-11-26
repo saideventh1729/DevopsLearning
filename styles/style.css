@@ -39,6 +39,8 @@ h3{
     background-color:bisque;
     padding-right: 50px;
     padding: 50px;
+    display: flex;
+    gap: 20px;
     align-items: center;
     text-align: center;
    
