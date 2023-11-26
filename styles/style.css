@@ -1,53 +1,22 @@
-*{
+.products{
+    display:flex;
+    gap: 15px;
+}
+
+.home{
+    display: block;
+    height: 250px;
     text-align: center;
-}
-
-h1{
-    font-weight: 500;
-    font-family: 'Courier New', Courier, monospace;
-    color: rosybrown;
-    font-size: 2rem;
-}
-
-#picgif{
-float: left;
-position: relative;
-left: 10px;
-top: 10px;
-}
-
-h2{
-    font-weight: 400;
-    font-family: 'Courier New', Courier, monospace;
-    color:grey;
-    font-size: 1rem;
-}
-
-h3{
-    color: darkgoldenrod;
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    font-weight: 400;
-}
-
-.heading{
-    background-color:aquamarine;
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-
-.movies{
-    background-color:bisque;
-    padding-right: 50px;
-    padding: 50px;
-    display: flex;
-    gap: 20px;
     align-items: center;
-    text-align: center;
-   
+    align-content: center;
 }
 
-.movie{
-    display: inline-block;
-    background-color:tan;
-    border: 0px solid black;
+.reviews{
+    display: flex;
+    align-tracks: center;
+    align-items: center;
+}
+
+#carouselExampleSlidesOnly{
+    align-content: center;
 }

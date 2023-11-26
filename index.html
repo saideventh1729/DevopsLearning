@@ -3,33 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saisantoshmovies</title>
+    <title>Saikumar spices</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div class="heading">
-        <img id="picgif"  src="assests/images/funny.gif" height="75"  alt="funny cartoon dancing">
-        <h1>R Saisantosh kumar reddy</h1>
-        <h2>My favorite movies</h2>
-       
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ContactUs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navigation nar ends here-->
+      <!-- Home div starts here-->
+    <div class="home" id="home">
+        <h1> Sai Kumar Spices</h1>
+        <img src="assests/images/home.jpg" alt="Chilli powder" width="150px">
     </div>
-   <hr/>
-   <div class="movies">
-    <div class = movie>
-    <h3>Shawshank redemption</h3>
-    <p>The best movie, Lorem Ipsum</p>
-    <br>
-</div>
-<div class = movie>
-    <h3>God Father</h3>
-    <p>The next best movies lorem ipsume</p>
-    <br>
-</div>
-<div class = movie>
-    <h3>The good fellows</h3>
-    <p>Ranked 3 in the list, Lorem ipsum</p>
-    <br>
-</div>
-</div>
+    <!--products div is starting here-->
+    <h4> PRODUCTS</h4>
+    <div class="products">
+        <div class="card" style="width: 18rem;">
+            <img src="assests/images/home.jpg" class="card-img-top" alt="funny image" height="75px" >
+            <div class="card-body">
+              <h5 class="card-title">Chilli powder</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="assests/images/home.jpg" class="card-img-top" alt="funny image" height="75px" >
+            <div class="card-body">
+              <h5 class="card-title">Chilli powder 2</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="assests/images/home.jpg" class="card-img-top" alt="funny image" height="75px" >
+            <div class="card-body">
+              <h5 class="card-title">Chilli powder 3</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+    </div>
+    <!-- Reviews div is starting here-->
+    <h4> REVIEWS</h4>
+    <div class="reviews" id ='reviews'>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="review">
+                    <h2>Awesome product</h2>
+                    <img src="assests/images/home.jpg" alt="">
+                    <p> This was the best product i have used so far.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="review">
+                    <img src="assests/images/home.jpg" alt="">
+                    <h2>Awesome product 2</h2>
+                    <p> This was the best product i have used so far.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="review">
+                    <img src="assests/images/home.jpg" alt="">
+                    <h2>Awesome product 3</h2>
+                    <p> This was the best product i have used so far.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="contact">
+
+    </div>
+    <footer> This is a Copyright website</footer>
 </body>
 </html>
