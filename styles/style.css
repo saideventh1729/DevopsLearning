@@ -22,6 +22,27 @@ footer{
     background-color: antiquewhite;
 }
 
+.home{
+    background-image: url("../assests/images/home.png");
+    background-color: aquamarine;
+    background-size: cover;
+    background-position:center;
+}
+
+h1{
+    color:#83aa04;
+    align-items: center;
+    align-content: center;
+    padding-top:50px;
+
+}
+
+h3{
+    color:black;
+    align-items: center;
+    align-content: center;
+}
+
 /* Style inputs */
 input[type=text], select, textarea {
   width: 100%;
