@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+}
+#navbar{
+    background-color: burlywood;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#prioriy-containter{
+    display: flex;
+   justify-content: space-evenly;
+   margin-left: 10px;
+   background-color: grey;
+   height: 20px;
+   gap: 10px;
+   padding: 10px 10px 10px 10px;
+   align-items: center;
+   cursor: pointer;
+}
+
+
+
+.priority{
+    height: 25px;
+    width: 50px;
+    box-sizing: border-box;
+}
+
+.priority:hover{
+    border: 2px solid white;
+}
+
+.editbtns:hover{
+    border: 2px solid black;
+}
+
+.add:hover{
+    background-color: green;
+}
+
+.remove:hover{
+    background-color: green;
+}
+
+.add{
+    background-color: greenyellow;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+.remove{
+    background-color: red;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+
+.editbtns{
+    display: flex;
+    background-color: azure;
+    width: 70px;
+    height: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 250px;
+}
+
+#p1{
+    background-color: yellow;
+}
+
+#p2{
+    background-color: aqua;
+}
+
+#p3{
+    background-color: green;
+}
+
+#p4{
+    background-color: red;
+}
+
+.model{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: grey;
+    margin: 30px 20px 40px 40px;
+}
+
+.right{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 235px;
+
+}
+
+#tdetail{
+    background-color: transparent;
+    color: white;
+    height: 250px;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+::placeholder{
+    color: white;
+}
+
+.taskitem{
+    background-color: aqua;
+    height: 200px;
+    width: 150px;
+    margin: 10px 10px 10px 10px;
+}
+
+.pcolor{
+    background-color: rgb(160, 213, 243);
+    height: 15%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.pnumber{
+    background-color: orange;
+    height: 15%;
+    width: 100%;
+    box-sizing: border-box;
+}

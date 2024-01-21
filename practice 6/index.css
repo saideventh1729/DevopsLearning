@@ -1,0 +1,33 @@
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.navbar{
+    background-color: aqua;
+    padding-left: 40px;
+}
+
+#div1{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-self: center;
+    margin-left: 250px;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+#div2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(240, 193, 193);
+}
